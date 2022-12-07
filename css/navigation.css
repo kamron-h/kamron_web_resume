@@ -22,8 +22,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #111;
+    background: black;
     transition: 0.5s;
+    z-index: 15;
 }
 
 .fullPageMenu.active {
@@ -88,7 +89,7 @@ body {
 
 .fullPageMenu .nav ul li a {
     position: relative;
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 4em;
     font-weight: 700;
@@ -103,12 +104,12 @@ body {
     position: absolute;
     bottom: -100%;
     left: 0;
-    color: #fff;
+    color: white;
 }
 
 .fullPageMenu .nav ul li:hover a {
     transform: translateY(-100%);
-    color: fff;
+    color: white;
 }
 
 .menuicon {
@@ -117,19 +118,21 @@ body {
     right: 20px;
     width: 50px;
     height: 50px;
-    background: #fff url(https://i.postimg.cc/k4rb3zpp/pngwave.png);
+    background: white url(https://i.postimg.cc/k4rb3zpp/pngwave.png);
     background-size: 30px;
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: 10px;
+    z-index: 20;
 }
 
 .menuicon.active {
-    background: #fff url(https://i.postimg.cc/25t1dMY5/pngegg-1.png);
+    background: white url(https://i.postimg.cc/25t1dMY5/pngegg-1.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: 10px;
 }
+
 
 @media(max-width:991px) {
     .banner {

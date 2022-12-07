@@ -18,6 +18,11 @@
       text-rendering:optimizeLegibility;
     }
 
+    .head {
+      padding-top: 15px;
+      padding-left: 15px
+    }
+
     .skill-set li:hover
     {
       background:#3498db;
@@ -70,7 +75,7 @@
 
     .me-img
     {
-      background:url(https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/c32137bb-f199-47ab-2dcb-8f49782a0100/public) no-repeat center center ;
+      background:url(https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/4559bf52-bd8f-4915-626d-d24cf0a23900/public) no-repeat center center ;
       background-size:100%;
       background-position:0px;
       border-radius:100%;
@@ -150,12 +155,13 @@
     {
       background:rgba(0,0,0,.75);
       border-radius:5px;
-      color:#FFF;
+      color:white;
       display:inline-block;
       list-style:none;
       margin:15px 15px 0 0;
       padding:10px;
       text-align:justify;
+      font-size: x-large;
     }
 
     @media screen and (max-width: 48em) {
@@ -196,4 +202,8 @@
       font-family: 'Shadows Into Light', cursive;
       font-size: 1.25em;
       margin-left:5px;
+    }
+
+    section p {
+      padding-left: 10px;
     }
