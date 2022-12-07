@@ -1,4 +1,7 @@
-.head {
-    padding-top: 15px;
-    padding-left: 15px
-  }
+p {
+  padding-left: 15;
+}
+
+li {
+  padding-left: 15;
+}

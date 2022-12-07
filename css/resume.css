@@ -18,11 +18,6 @@
       text-rendering:optimizeLegibility;
     }
 
-    .head {
-      padding-top: 15px;
-      padding-left: 15px
-    }
-
     .skill-set li:hover
     {
       background:#3498db;
