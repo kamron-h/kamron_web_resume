@@ -1,0 +1,44 @@
+/** TIPS: 
+1. The carousel shouldn't be in any other div, like for example div with class container. 
+2. You can align image position in classes bg1, bg2, bg3 using css background-position.
+*/
+/* Carousel 100% Fullscreen */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.carousel,
+.item,
+.active {
+  height: 100%;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel {
+  margin-bottom: 60px;
+}
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  background-color: #777;
+}
+.carousel .carousel-inner .bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel .carousel-inner .bg1 {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Dpi3sTBMMX4_pR8pBgMb1wHaE8%26pid%3DApi&f=1&ipt=4da6316f6ab9226b75c4562928ca11c975f41d57f12e1683b78134abc5f57d79&ipo=images');
+  background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/hearthand.jpg');
+  background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/woman-camera.jpg');
+  background-position: center bottom;
+}

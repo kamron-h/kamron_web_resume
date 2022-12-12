@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
 * {
     /* padding: 0; */
-    margin: 0;
+    /* margin: 0; */
     box-sizing: border-box;
     font-family: 'Teko', sans-serif;
 }
@@ -113,9 +113,9 @@ body {
 }
 
 .menuicon {
-    position: absolute;
+    position: fixed;
     top: 20px;
-    right: 20px;
+    right: 10px;
     width: 50px;
     height: 50px;
     background: white url(https://i.postimg.cc/k4rb3zpp/pngwave.png);
