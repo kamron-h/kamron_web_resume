@@ -114,3 +114,10 @@
     height: 50px;
     margin: auto;
 }
+
+
+@media (min-width: 768px){
+    .col-md-8 {
+        width: auto !important;
+      }
+}
