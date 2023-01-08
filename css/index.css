@@ -13,8 +13,6 @@
     border-radius: 6px;
 }
 
-
-
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -71,6 +69,7 @@
     display: none;
     align-items: center;
     width: 100% !important;
+    max-height: 670px !important;
     transition: transform .6s ease;
     backface-visibility: hidden;
     perspective: 1000px;
