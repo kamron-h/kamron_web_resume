@@ -26,6 +26,22 @@
         .col-md-8 {
           width: auto;
         }
+        @media (min-width: 566px) {
+          .section {
+            width: 85%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        @media (min-width: 768px) {
+          .section {
+            width: 66%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
     </style>
   </head>
   <body>
@@ -49,16 +65,13 @@
         </div>
         <span class="menuicon active" id="toggle" onclick="menuToggle()"></span>
 
-
-
-
         <div class="container-fluid">
             <div class="section" id="carousel">
             <div class="container-fluid">
               <div class="col-md-8 offset mr-auto ml-auto">
     
                         <!-- Carousel Card -->
-                        <div class="card card-raised card-carousel">
+                        <div class="card card-raised card-carousel carousel-shrink">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
                               <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -103,174 +116,176 @@
               </div>
 
             </div>
+          </div>
         </div>
-        </div>
-
-
-
-
-
-        <!-- <div class="container-fluid">
-
-            <img style="width:100%;padding-left: 5px;padding-right: 5px;margin-top: 15px;margin-bottom: 5px;"
-            src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
-
-        </div> -->
-
-
-
-
 
 
         <div class="container" style="margin-left: auto;margin-right: auto;margin-top: 20px;">
-
-            <h2>Background :</h2>
-        
-        <ul>
+          <h2>Background :</h2>
+          <ul>
             <li>
-                I'm originally from Greenville NC, but my heart resides in New Orleans.
-            </li>
-            <li>
-                I'm also a full-time single father with a 10-year-old daughter.
-            </li>
-            <li>
-                Before going back to school. I was a tradesman, working mainly as a Pipefitter, Commercial Diver, and lastly a Tanker Driver. All of which I enjoyed dearly, but doing such
-                work required constant travel, equating to time away from my little girl. I've had custody of my daughter since she was 2 years old and after losing most of our support system (my grandparents). 
-                I made the decision to change careers for a trade/skill that requires less travel and more freedom. Ultimately, to give me the ability to spend much more time raising my daughter 
-                and pursuing my true career aspirations, Entrepreneurship and Software Engineering.
-            </li>
-            <li>
-                My newfound love is using software to build things such as websites and applications that serve the masses. 
-                I'm always teaching myself to code with different languages and Stacks. Overall, the primary languages I have the most experience in are Swift for Mobile Development, 
-                Python for Backend Development, and HTML5/CSS for Frontend Development. Java, JavaScript, and Node.js are the current new languages that I'm studying. 
-                I generally pick up new languages and/or Tech-Stacks as needed for my personal projects and classes...
-            </li>
-            
-        </ul>
-
-        <p></p>
-
-        <!-- <h2>Personal Interests :</h2> -->
-
-        <div class="container py-4 py-xl-5">
-          <div class="row mb-5">
-              <div class="col-md-8 col-xl-6 text-center mx-auto">
-                  <h2 class="w-lg-50" style="font-weight: bold;">Some of my current hobbies consist of...</h2>
-              </div>
-          </div>
+              Hailing from Greenville NC, with a deep connection to New Orleans.
+          </li>
+          <li>
+              Dedicated full-time dad, raising my 11-year-old daughter solo since she was 2.
+          </li>
+          <li>
+              Transitioning from an extensive career in trades (Commercial Diver, Pipefitter, Tanker Driver, 
+              Acoustics/Drywall Mech.) to a field with less travel for more family time, following the loss 
+              of my grandparents (our support system).
+          </li>
+          <li>
+              Pursuing a new career path in business, engineering, data science, and balancing university studies with fatherhood.
+          </li>
+          <li>
+              Passionate about creating user-friendly software, with skills in Swift, Java, Python, HTML5/CSS, and AI. 
+              Continuously learning new programming languages and tech stacks for personal projects and academic pursuits.
+          </li>
 
 
-          <!-- <div class="container">
-            <div class="row">
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/37ad617f-e63b-4d57-ea27-af7d89b54e00/UHD1920X1080" width="416" height="277" />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">QT w/ Daughter</h3>
+
+
+              <!-- <li>
+                  I'm originally from Greenville NC, but my heart resides in New Orleans.
+              </li>
+              <li>
+                In addition, I'm a full-time dad to my 10-year-old daughter, whom I raised alone.
+              </li>
+              <li>
+                Ahead of returning to University. My background is in the trades; I've have extensive experience as
+                a Commercial Diver, Pipefitter, and Tanker Driver. . I loved every minute of it, but the continual 
+                travel meant I had to spend less time with my daughter which I've had custody of since she was 2 years old. 
+                Losing most of our support system, after my grandparents passed away.I made the decision to shift occupations
+                for a trade/skill that involves less travel and more freedom. In the end, so that I can devote more time 
+                to being a good father to my daughter and following my passions in business and computer science.
+              </li>
+              <li>
+                Creating useful software for the general public, such websites and apps, is my new passion. I am 
+                constantly teaching myself new programming languages and Stacks. Swift & Java for mobile development, 
+                Python for backend development, and HTML5/CSS for frontend development are the languages with 
+                which I have the most familiarity. I normally pick up new languages and/or Tech-Stacks as 
+                needed for my personal projects and classes...
+              </li> -->
+          </ul>
+
+          <p></p>
+
+          <!-- <h2>Personal Interests :</h2> -->
+
+          <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 class="w-lg-50" style="font-weight: bold;">Some of my current hobbies consist of...</h2>
                 </div>
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/eb04270d-8292-4ec5-44c5-bac42acc1200/UHD1920X1080" width="416" height="277" title="I try to go swimming 2x a week." />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Swimming</h3>
-                </div>
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/91c178f5-f468-481f-24e0-becbd72dfb00/UHD1920X1080" width="416" height="277" />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Working on Cars</h3>
-                </div>
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/bd3a2c7f-2138-4851-c5b7-114fd91a2200/UHD1920X1080" width="416" height="277" />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Playing VR</h3>
-                </div>
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/d012e7f2-d794-474d-0f2f-26d792078600/UHD1920X1080" width="416" height="277" />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Tinkering w/ IoT Devices</h3>
-                </div>
-                <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/4b6236bf-bd92-4ca1-34ed-bd15aebb4b00/UHD1920X1080" width="416" height="277" />
-                    <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Software Development</h3>
-                </div>
-                <div class="col-sm-6 col-lg-4"></div>
-                <div class="col-lg-4"></div>
-                <div class="col"></div>
             </div>
-          </div> -->
 
 
-          <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="I try to go swimming 2x a week."
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/eb04270d-8292-4ec5-44c5-bac42acc1200/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Swimming</h5>
-                      </div>
+            <!-- <div class="container">
+              <div class="row">
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/37ad617f-e63b-4d57-ea27-af7d89b54e00/UHD1920X1080" width="416" height="277" />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">QT w/ Daughter</h3>
                   </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="The deepest depth I've dove was 180ft, in the middle of winter."
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/79ca3ac3-87fd-48d6-cbc6-1ece4d4a3500/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Diving</h5>
-                      </div>
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/eb04270d-8292-4ec5-44c5-bac42acc1200/UHD1920X1080" width="416" height="277" title="I try to go swimming 2x a week." />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Swimming</h3>
                   </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="Although "
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/bd3a2c7f-2138-4851-c5b7-114fd91a2200/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Playing VR</h5>
-                      </div>
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/91c178f5-f468-481f-24e0-becbd72dfb00/UHD1920X1080" width="416" height="277" />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Working on Cars</h3>
                   </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="After getting tired of paying exorbitant prices for others to fix my cars and being that I'm very mechanically inclined. I decided to fix them myself whenever possible, which has turned into a passion overtime..."
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/91c178f5-f468-481f-24e0-becbd72dfb00/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Working on Cars</h5>
-                      </div>
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/bd3a2c7f-2138-4851-c5b7-114fd91a2200/UHD1920X1080" width="416" height="277" />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Playing VR</h3>
                   </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="I've been single raising my daughter with the assistant of grandparents since the age of two. 
-                    We're constantly going on Daddy-Daughter dates and spending quality time together. 
-                    She helps to give me drive and motivation each day."
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/37ad617f-e63b-4d57-ea27-af7d89b54e00/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Spending Time w/ Daughter</h5>
-                      </div>
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/d012e7f2-d794-474d-0f2f-26d792078600/UHD1920X1080" width="416" height="277" />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Tinkering w/ IoT Devices</h3>
                   </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="Since I love technology, solving problems, and software development, and have worked in many different trades. 
-                    With that being so, I'd like to develope technology based tools that will ultimately help me to build generational wealth and uplift me from poverty."
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/d012e7f2-d794-474d-0f2f-26d792078600/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Tinkering w/ IoT Devices</h5>
-                      </div>
+                  <div class="col-6 col-lg-4 col-xxl-4"><img class="img-fluid hobby-img" src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/4b6236bf-bd92-4ca1-34ed-bd15aebb4b00/UHD1920X1080" width="416" height="277" />
+                      <h3 class="d-xxl-flex justify-content-xxl-center hobby-text" style="text-align: center;">Software Development</h3>
                   </div>
+                  <div class="col-sm-6 col-lg-4"></div>
+                  <div class="col-lg-4"></div>
+                  <div class="col"></div>
               </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
-                    title="I've been teaching myself how to code "
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/4b6236bf-bd92-4ca1-34ed-bd15aebb4b00/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Software Development</h5>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-3 col-xl-3">
-                  <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" title=""
-                    src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/2443df9a-787c-4e89-edf5-d7ee4263db00/UHD1920X1080">
-                      <div class="py-1">
-                          <h5 class="text-center">Learning New Technologies</h5>
-                      </div>
-                  </div>
-              </div>
+            </div> -->
+
+
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="I try to go swimming 2x a week."
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/eb04270d-8292-4ec5-44c5-bac42acc1200/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Swimming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="The deepest depth I've dove was 180ft, in the middle of winter."
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/79ca3ac3-87fd-48d6-cbc6-1ece4d4a3500/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Diving</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="Although "
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/bd3a2c7f-2138-4851-c5b7-114fd91a2200/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Playing VR</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="After getting tired of paying exorbitant prices for others to fix my cars and being that I'm very mechanically inclined. I decided to fix them myself whenever possible, which has turned into a passion overtime..."
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/91c178f5-f468-481f-24e0-becbd72dfb00/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Working on Cars</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="I've been single raising my daughter with the assistant of grandparents since the age of two. 
+                      We're constantly going on Daddy-Daughter dates and spending quality time together. 
+                      She helps to give me drive and motivation each day."
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/37ad617f-e63b-4d57-ea27-af7d89b54e00/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Spending Time w/ Daughter</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="Since I love technology, solving problems, and software development, and have worked in many different trades. 
+                      With that being so, I'd like to develope technology based tools that will ultimately help me to build generational wealth and uplift me from poverty."
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/d012e7f2-d794-474d-0f2f-26d792078600/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Tinkering w/ IoT Devices</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" 
+                      title="I've been teaching myself how to code "
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/4b6236bf-bd92-4ca1-34ed-bd15aebb4b00/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Software Development</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xl-3">
+                    <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 200px;" title=""
+                      src="https://imagedelivery.net/5IPp1ww3GQHMKaYL6DWf-g/2443df9a-787c-4e89-edf5-d7ee4263db00/UHD1920X1080">
+                        <div class="py-1">
+                            <h5 class="text-center">Learning New Technologies</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
           </div>
+
       </div>
-      
-
-        <!-- <p>
-          Aspirations :
-        </p> -->
-
-        </div>
 
         
 
