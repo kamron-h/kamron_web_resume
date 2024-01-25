@@ -199,7 +199,7 @@
       margin-left:5px;
     }
 
-    section p {
+    .section .p {
       padding-left: 10px;
     }
 
@@ -207,7 +207,7 @@
 
     .nav-tabs .nav-link.active {
       color: #000000 !important;
-      background-color: #ffb300;
+      background-color: #ffb300 !important;
     }
 
     .nav-pills .nav-link:hover, .nav-tabs .nav-link:hover {
@@ -231,15 +231,15 @@
     /*}*/
 
     .up-arrow {
-      display: none;
+      display: none !important;
     }
 
     .collapsed .down-arrow {
-      display: inline;
+      display: inline !important;
     }
 
     .collapsed .up-arrow {
-      display: none;
+      display: none !important;
     }
 
     /* CERTS */
@@ -250,7 +250,7 @@
     }
 
     .truncate {
-      display: table-caption;
+      display: block;
       width: 223px;
       white-space: nowrap;
       overflow: hidden;
