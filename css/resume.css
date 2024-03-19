@@ -211,7 +211,7 @@
     }
 
     .nav-pills .nav-link:hover, .nav-tabs .nav-link:hover {
-      color: #ffffff !important;
+      color: #000000 !important;
       background-color: var(--bs-emphasis-color) !important;
     }
 
