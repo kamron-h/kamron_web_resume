@@ -1,0 +1,55 @@
+.btn-secondary {
+  background-color: white;
+  border-color: white;
+  color: black;
+  padding: 1em;
+}
+
+.btn-secondary:hover {
+  background-color: var(--bs-light-border-subtle);
+  border-color: var(--bs-light-border-subtle);
+  color: black;
+}
+
+.btn-primary {
+  background-color: goldenrod;
+  border-color: goldenrod;
+  padding: 1em;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+
+.project-svg {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .project-svg {
+    display: initial;
+  }
+}
+
+.project-title {
+}
+
+.project-stack {
+}
+
+.project-description {
+}
+
+.project-carousel {
+}
+
+.project-git-link {
+  font-size: smaller;
+}
+
+.project-url {
+  font-size: smaller;
+}
+
