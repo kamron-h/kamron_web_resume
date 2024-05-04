@@ -32,3 +32,239 @@
   margin-bottom: 1em;
 }
 
+/* TAGS */
+
+.tag {
+  display: inline-block;
+  border-radius: 3px;
+  padding: .2em .5em .3em;
+  border-radius: 2px;
+  background: var(--tag-bg);
+  color: var(--text-color);
+  text-decoration: none; /* Remove default link underline */
+  font-weight: 500;  /* Slightly bolder text */
+  font-weight: 600;
+  margin: .25em .1em
+}
+
+h1.tag {
+  margin-left: 0;
+  margin-right: 0
+}
+
+.tag-sm {
+  font-size: .7em;
+  display: inline-block;
+  letter-spacing: .15ch;
+  font-weight: 400
+}
+
+.tag-lg {
+  font-size: 1.2em;
+  border-radius: 4px
+}
+
+.tag-bg {
+  background: var(--background)
+}
+
+.tag-green,.tag-pro {
+  background: var(--green);
+  color: #fff
+}
+
+.tag-purple {
+  background: var(--purple);
+  color: #fff
+}
+
+.tag-contrast {
+  background: var(--text-color);
+  color: var(--background)
+}
+
+.tag-javascript {
+  background: #f0db4f; 
+  color: #000;
+}
+
+.tag-firebase { 
+  background: #ffcb2b; 
+  color: #12181a; 
+}
+
+.tag-angular { 
+  background: #dc0530;
+  color: #fff;
+}
+
+.tag-python { 
+  background: #3879ab; 
+  color: #ffda5d; 
+}
+
+.tag-ios { 
+ background: #646464;
+ color: #fff;
+}
+
+.tag-vue {
+  background: #41b883;
+  color: #35495e
+}
+
+.tag-rxjs {
+  background: var(--pink);
+  color: var(--gray5)
+}
+
+.tag-node {
+  background: #90c53f;
+  color: #46483d
+}
+
+.tag-cloud-functions {
+  background: var(--blue);
+  color: #fff
+}
+
+.tag-flutter {
+  background: #54c5f8;
+  color: #003b6c
+}
+
+.tag-google-maps {
+  background: #33a668;
+  color: #f8d845
+}
+
+.tag-android {
+  background: #a4c34a;
+  color: #fff
+}
+
+.tag-stripe {
+  color: #fff;
+  background: #6675e0
+}
+
+.tag-machine-learning {
+  color: #fff;
+  background: var(--purple-light)
+}
+
+.tag-python {
+  color: #ffda5d;
+  background: #3879ab
+}
+
+.tag-svelte {
+  color: #fff;
+  background: #ff3e00
+}
+
+.tag-react {
+  color: #00d8ff;
+  background: #222
+}
+
+.tag-aws { 
+  background: #FF9900;
+  color: #fff;
+}
+
+.tag-gcp {
+  background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05, #EA4335); 
+  color: #fff;
+}
+
+.tag-linux { 
+  background: #FCC624; 
+  color: #000;
+} 
+
+.tag-minimum-viable-product,.tag-mvp {
+  color: #fff;
+  background-image: linear-gradient(90deg,#ff8901,#db1d5f);
+  font-weight: 700
+}
+
+.tag-ionic {
+  background: #fff;
+  color: #4a8afc
+}
+
+.tag-nest {
+  color: #e0234e;
+  background: #000
+}
+
+.tag-graphql {
+  color: #fff;
+  background: #e10097
+}
+
+.tag-electron {
+  color: #313244;
+  background: #adecf3
+}
+
+.tag-aws { 
+  background: #FF9900; /* Official AWS orange */
+  color: #fff;
+}
+
+.tag-gcp {
+  background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05, #EA4335); /* Core GCP colors */
+  color: #fff;
+}
+
+.tag-linux { 
+  background: #FCC624; /* Tux yellow */
+  color: #000;
+} 
+
+.tag-redis { 
+  background: #DC382D; /* Redis red */
+  color: #fff; 
+}
+
+.tag-vscode { 
+  background: #007ACC; /* Official VS Code blue */
+  color: #fff;
+}
+
+.tag-devops { 
+  background: linear-gradient(to right, #00c6fb, #005bea); /* DevOps blue shades */
+  color: #fff; 
+}
+
+.tag-github { 
+  background: #181717; /* Github black */
+  color: #fff; 
+}
+
+.tag-sql { 
+  background: linear-gradient(to bottom, #00758F, #00A8E0); /* SQL blues */
+  color: #fff; 
+}
+
+.tag-no-sql { 
+  background: linear-gradient(to right, #4facfe, #00f2fe); /* Vibrant NoSQL contrast */
+  color: #fff;  
+}
+
+.tag-sass { 
+  background: #CC6699; /* Sass pink */
+  color: #fff; 
+}
+
+.tag-ms-office { 
+  background: linear-gradient(to right, #217346, #0078D4, #F25022); /* Excel green, Word blue, PowerPoint orange */
+  color: #fff; 
+}
+
+.tag-full-stack { 
+  background: linear-gradient(135deg, #fccb90 0%, #d57eeb 50%, #360033 100%); /* Frontend to backend spectrum */
+  color: #fff; 
+}
