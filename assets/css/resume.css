@@ -11,15 +11,21 @@
   color: rgba(50,50,50,0.5);
 }
 
-.scrollable-column {
-  max-height: 90vh;
-  overflow-y: auto;
+.course-tabs {
+  row-gap: 0.4rem;
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: var(--bs-nav-tabs-link-active-color);
-  background-color: gold;
+  color: #fff;
+  background-color: var(--bs-primary);
   border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.graduate-note {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: left;
 }
 
 .course-title {
@@ -153,11 +159,6 @@ h1.tag {
   background: var(--purple-light)
 }
 
-.tag-python {
-  color: #ffda5d;
-  background: #3879ab
-}
-
 .tag-svelte {
   color: #fff;
   background: #ff3e00
@@ -208,21 +209,6 @@ h1.tag {
   color: #313244;
   background: #adecf3
 }
-
-.tag-aws { 
-  background: #FF9900; /* Official AWS orange */
-  color: #fff;
-}
-
-.tag-gcp {
-  background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05, #EA4335); /* Core GCP colors */
-  color: #fff;
-}
-
-.tag-linux { 
-  background: #FCC624; /* Tux yellow */
-  color: #000;
-} 
 
 .tag-redis { 
   background: #DC382D; /* Redis red */
