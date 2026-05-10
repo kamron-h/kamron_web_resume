@@ -254,3 +254,16 @@ h1.tag {
   background: linear-gradient(135deg, #fccb90 0%, #d57eeb 50%, #360033 100%); /* Frontend to backend spectrum */
   color: #fff; 
 }
+
+@media (min-width: 1440px) {
+  .resume-profile-column {
+    align-items: flex-start !important;
+  }
+
+  .resume-profile-details {
+    position: sticky;
+    top: 50vh;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+}
