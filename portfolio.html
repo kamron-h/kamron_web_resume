@@ -481,25 +481,31 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>This project started as a REST API endpoint assignment and evolved into a full movie and TV streaming platform with authentication and a live cloud-hosted PostgreSQL backend.</p>
+                    <p>Streaming SENG-3000 is a full-stack Django application developed as both a university assignment and a professional portfolio piece. It evolved into a feature-rich movie and TV streaming platform, integrating user account management, advanced database modeling, and cloud-based deployment.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>User authentication and account workflows</li>
-                        <li>Streaming-focused media browsing and playback</li>
-                        <li>Responsive interface for desktop and mobile devices</li>
+                        <li><strong>User Authentication & Profiles:</strong> Secure registration, login, and logout using Django's authentication framework with automatic profile creation</li>
+                        <li><strong>Media Library & Streaming:</strong> Robust models for Movies, TV Shows, Seasons, Episodes, Actors with support for uploading and streaming video files</li>
+                        <li><strong>RESTful API:</strong> Extensive API powered by Django REST Framework with ModelViewSets for all core entities</li>
+                        <li><strong>Database Architecture:</strong> Advanced data modeling with Django ORM including 1-to-many and many-to-many relationships</li>
+                        <li><strong>Front-End & Interaction:</strong> Responsive HTML templates with dynamic video carousels and grid listings</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Django, Python, HTML, CSS, JavaScript</li>
-                        <li>PostgreSQL</li>
+                        <li><strong>Backend:</strong> Django 5.x, Django REST Framework</li>
+                        <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript</li>
+                        <li><strong>Database:</strong> PostgreSQL (production), SQLite (development)</li>
+                        <li><strong>Deployment:</strong> Railway, Gunicorn, Whitenoise, python-dotenv</li>
+                        <li><strong>Other:</strong> Pillow (image handling), Token Authentication</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Linode hosting environment</li>
-                        <li>Cloud-based PostgreSQL database services</li>
+                        <li>Railway cloud deployment platform</li>
+                        <li>PostgreSQL production database</li>
+                        <li>Static/media asset handling for scalable cloud serving</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -542,25 +548,30 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>VampLife is an e-commerce-focused graduate course project where I delivered the full implementation under a compressed 48-hour window.</p>
+                    <p>VampLife is a collaborative, full-stack web application serving as the capstone for an "E-Commerce Development" graduate course. Designed and built as a group project, it demonstrates advanced CRUD capabilities, creative UI development, and robust back-end integrations using modern cloud and database technologies. Delivered under a compressed 48-hour timeline.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Product catalog and CRUD data flows</li>
-                        <li>Responsive storefront experience</li>
-                        <li>Containerized deployment workflow</li>
+                        <li><strong>User Experience & Theming:</strong> Immersive "vampire sanctuary" UI with interactive home page and team member showcase</li>
+                        <li><strong>Interactive Quiz & Personalization:</strong> "Vampire Test" form with dynamic evaluation logic and personalized scoring</li>
+                        <li><strong>Results & Data Handling:</strong> Secure session and data handling with Redis integration for real-time feedback</li>
+                        <li><strong>Team & Collaboration:</strong> Team landing page highlighting member education, bios, and skill progression</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Flask, HTML, CSS, JavaScript</li>
-                        <li>Redis, Docker</li>
+                        <li><strong>Backend:</strong> Python 3 (Flask framework), Flask-Migrate for DB migrations</li>
+                        <li><strong>Data & Sessions:</strong> Redis (cloud) with advanced error handling and JSON serializations</li>
+                        <li><strong>Frontend:</strong> HTML5, CSS3, Bootstrap 5, Jinja2 templating, JavaScript/JQuery</li>
+                        <li><strong>DevOps/Hosting:</strong> Railway.app for cloud deployment; Gunicorn for production WSGI</li>
+                        <li><strong>Other:</strong> Python-dotenv for environment management</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Railway hosting platform</li>
-                        <li>Redis cloud services</li>
+                        <li>Redis cloud for session-aware data storage</li>
+                        <li>Railway.app for fast cloud deployment</li>
+                        <li>Flask-Migrate for smooth database migrations</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -612,25 +623,34 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>The UNIA project is a volunteer-driven initiative focused on delivering an organization website that supports equality, outreach, and social justice engagement.</p>
+                    <p>UNIA-ACL is a robust full-stack Django web application built to serve the Universal Negro Improvement Association and African Communities League. The platform advances social justice by providing a centralized portal for outreach, member engagement, events, and organizational growth.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Fully featured content and organization pages</li>
-                        <li>Ongoing iterative updates from community feedback</li>
-                        <li>Member-oriented informational workflows</li>
+                        <li><strong>Public-Facing Website:</strong> Mission, history, and leadership pages with dynamic events calendar and e-commerce store for merchandise</li>
+                        <li><strong>Member Dashboard:</strong> Role-specific dashboards with secure private calendar, peer-to-peer messaging, virtual conference spaces, and digital library</li>
+                        <li><strong>Marketplace & Production Operations:</strong> Phased deployment strategy with Stripe Connect integration, automated cleanup jobs, and advanced monitoring</li>
+                        <li><strong>Real-time Notifications:</strong> WebSocket-based messaging and real-time notifications for events and organizational updates</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Django, Python, HTML, CSS, JavaScript</li>
-                        <li>PostgreSQL</li>
+                        <li><strong>Backend:</strong> Django 5+, Django REST Framework, Celery for task processing</li>
+                        <li><strong>Frontend:</strong> Bootstrap, JavaScript, HTML5, CSS3</li>
+                        <li><strong>Database:</strong> PostgreSQL</li>
+                        <li><strong>Real-time:</strong> Django Channels and WebSockets for messaging/notifications</li>
+                        <li><strong>E-commerce/Payments:</strong> Stripe API (including Stripe Connect for sellers)</li>
+                        <li><strong>Assets & CDN:</strong> Cloudflare for static/doc hosting</li>
+                        <li><strong>DevOps:</strong> Docker, Railway, Redis for caching and channel layers</li>
+                        <li><strong>Other:</strong> Prometheus for monitoring; Locust for load testing</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Community-managed content operations</li>
-                        <li>Live production deployment environment</li>
+                        <li>Stripe: Secure payments, subscriptions, and marketplace payouts</li>
+                        <li>Cloudflare: Static asset delivery and image hosting</li>
+                        <li>Celery: Background jobs for cleanup, notifications, and rate-limited tasks</li>
+                        <li>Django Channels: Real-time WebSocket messaging and notifications</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -659,25 +679,29 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>An interactive CesiumJS globe that visualizes county-level unemployment by converting CSV datasets to JSON, merging them with GeoJSON boundaries, and rendering the result as a dynamic choropleth map.</p>
+                    <p>Cesium Globe App is a browser-based interactive 3D map that visualizes county-level U.S. unemployment data. Leveraging CesiumJS, this project merges raw labor statistics with geospatial boundaries to provide an engaging, color-coded (choropleth) globe where users gain a spatial and temporal perspective on employment trends nationwide.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>County-level choropleth shading by unemployment rate</li>
-                        <li>State extrusion and selection interactions</li>
-                        <li>Toggleable color-blind safe palettes and data layers</li>
+                        <li><strong>Data Transformation & Integration:</strong> Automated CSV data ingestion from Bureau of Labor Statistics with conversion to optimized JSON format</li>
+                        <li><strong>Dynamic Choropleth Visualization:</strong> 3D globe rendering with counties shaded by unemployment rate and state extrusion on selection</li>
+                        <li><strong>User Interaction & Exploration:</strong> Intuitive globe navigation (zoom, rotate, pan) with year/time selector for trend comparison</li>
+                        <li><strong>Performance & Data Handling:</strong> Efficient loading of high-resolution geospatial data with prefetching and caching mechanisms</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>GeoJSON and WebGL rendering with CesiumJS</li>
+                        <li><strong>Frontend:</strong> HTML, JavaScript (CesiumJS, D3.js for data handling and visualization)</li>
+                        <li><strong>Data Processing:</strong> Client-side scripts converting CSV to JSON with geospatial enrichment</li>
+                        <li><strong>Mapping Engine:</strong> CesiumJS for real-time 3D globe rendering</li>
+                        <li><strong>Deployment:</strong> Static web deployment, CDN-ready</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Merged CSV and GeoJSON data pipeline</li>
-                        <li>CesiumJS geospatial visualization engine</li>
+                        <li>Bureau of Labor Statistics: Official U.S. unemployment data source</li>
+                        <li>U.S. Census Bureau/GeoJSON: Authoritative county-level boundary data</li>
+                        <li>CesiumJS: Advanced 3D geospatial visualization engine</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -724,24 +748,32 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>A software development firm website presenting engineering and consulting services, project pricing, and a contact flow for client engagement.</p>
+                    <p>SD-Firm Django is a full-service software development platform designed to deliver scalable web and mobile solutions for entrepreneurs, startups, and established organizations. Built with a mission to empower, educate, and uplift—with special emphasis on Black-owned enterprises—the platform blends innovation and representation to produce digital experiences that authentically reflect each business's story and values.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Service pages with clear value propositions</li>
-                        <li>Detailed pricing and contact experiences</li>
-                        <li>Portfolio showcase for prior project outcomes</li>
+                        <li><strong>Strategy & Requirements Planning:</strong> Guided requirement elicitation, UML diagramming, and technical documentation</li>
+                        <li><strong>Service & Project Management:</strong> Manage services/products, pricing, clients, and projects with flexible lifecycle support (scrum, agile, waterfall)</li>
+                        <li><strong>Client Engagement:</strong> Lead capture, onboarding workflows, consultation requests, and automated communications</li>
+                        <li><strong>Web & Mobile Development:</strong> Custom production-ready web applications and cross-platform mobile prototyping</li>
+                        <li><strong>AI & Data Science Solutions:</strong> Discovery workflows for AI applications with ethical integration and business process automation</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>HTML, CSS, JavaScript</li>
+                        <li><strong>Backend:</strong> Django 4.x REST Framework, PostgreSQL, modular app architecture</li>
+                        <li><strong>Frontend:</strong> HTML5, Bootstrap, custom CSS, JavaScript interactivity</li>
+                        <li><strong>Payments:</strong> Stripe API integration</li>
+                        <li><strong>AI Integration:</strong> OpenAI for project generation and AI agent components</li>
+                        <li><strong>Internationalization:</strong> Multi-language support (English/French)</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Cloudflare image delivery</li>
-                        <li>Custom domain deployment</li>
+                        <li>CRM/lead management with project-based quoting</li>
+                        <li>Stripe for online payments and service billing</li>
+                        <li>Email/SMS communications with consent tracking</li>
+                        <li>OpenAI for AI-driven automation components</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -787,25 +819,29 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>A software project management course project that applied Agile workflows to design and deliver a production-style banking web platform.</p>
+                    <p>Heritage Bank is a "Software Project Management" group website designed to implement AGILE practices. Developed as a collaborative course project to enhance team management, communication, and rapid problem-solving skills while gaining experience in deploying production-ready software.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Team-oriented software planning and implementation</li>
-                        <li>Web interface for banking-oriented user flows</li>
-                        <li>Cloud-hosted backend with production deployment practices</li>
+                        <li>Banking-oriented user flows and account management</li>
+                        <li>Transaction processing and financial reporting interfaces</li>
+                        <li>Team-based software development and planning workflows</li>
+                        <li>Agile sprint management and project tracking</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Django, HTML, CSS, JavaScript</li>
-                        <li>PostgreSQL</li>
+                        <li><strong>Backend:</strong> Django, Python</li>
+                        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+                        <li><strong>Database:</strong> PostgreSQL</li>
+                        <li><strong>Deployment:</strong> Railway with PostgreSQL cloud database</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
                         <li>Railway-managed PostgreSQL services</li>
-                        <li>Agile project management implementation</li>
+                        <li>Agile/SCRUM project management practices</li>
+                        <li>Production-grade deployment environment</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -834,25 +870,30 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>A collection of Python scripts for software-review N-gram analysis used in an NSF REU AI research internship and reflected in a final academic poster.</p>
+                    <p>A collection of Python scripts to be used for N-gram analysis of software reviews. This repository tokenizes software review data, removes stopwords, lemmatizes, and generates N-grams using NLTK, pandas, and scikit-learn for an NSF REU AI research internship. Results influenced the final academic research poster.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Tokenization, stopword removal, and lemmatization pipelines</li>
-                        <li>N-gram generation and comparative text analysis</li>
-                        <li>Date processing and structured data preparation workflows</li>
+                        <li>Text tokenization and stopword removal from review data</li>
+                        <li>Lemmatization and linguistic preprocessing</li>
+                        <li>N-gram generation and frequency analysis</li>
+                        <li>Review date data processing and temporal analysis</li>
+                        <li>Structured output for academic analysis and publication</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Python, pandas, NLTK, scikit-learn</li>
-                        <li>Numbers for dataset curation and reporting workflows</li>
+                        <li><strong>Language:</strong> Python 3</li>
+                        <li><strong>Libraries:</strong> NLTK, pandas, scikit-learn</li>
+                        <li><strong>Data Processing:</strong> Numbers spreadsheets for curation and reporting</li>
+                        <li><strong>Research Ecosystem:</strong> Axiom, AutoAI research tools</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Axiom and AutoAI research ecosystem tools</li>
-                        <li>ACM and IEEE publication-aligned research outputs</li>
+                        <li>NLTK for natural language processing pipelines</li>
+                        <li>scikit-learn for machine learning and data analysis</li>
+                        <li>ACM and IEEE research publication standards</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -891,25 +932,30 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>This ECU research effort evaluates software engineering graduate programs nationwide to compare strategic benchmarks and support data-driven program improvements.</p>
+                    <p>SWE_Graduate is a Django-based web application designed to streamline the management and tracking of research projects. ECU initiated this research effort to evaluate software engineering graduate programs nationwide, compare strategic benchmarks, and support data-driven program improvements through comparative analysis across competing universities.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
+                        <li>Research project organization and modular grouping</li>
                         <li>Requirements elicitation and analysis workflow design</li>
                         <li>Program comparison and filtering dashboards</li>
-                        <li>Data science support for institutional decision-making</li>
+                        <li>Custom research models and data tracking</li>
+                        <li>Data science visualizations for institutional benchmarking</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Python and Streamlit</li>
-                        <li>Cloudflare deployment services</li>
+                        <li><strong>Backend:</strong> Python with research-oriented architecture</li>
+                        <li><strong>Frontend:</strong> Streamlit for interactive data exploration</li>
+                        <li><strong>Deployment:</strong> Cloudflare services</li>
+                        <li><strong>AI Integration:</strong> Generative AI-assisted data exploration</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
                         <li>Streamlit cloud-hosted app delivery</li>
-                        <li>Generative AI-assisted data exploration (CGPT workflows)</li>
+                        <li>Generative AI for data exploration and insights</li>
+                        <li>Research data visualization and comparative analysis tools</li>
                     </ul>
 
                     <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
@@ -958,27 +1004,38 @@
                     </div>
 
                     <h6 class="fw-bold">Description</h6>
-                    <p>KD-Safety is a corporate Krav Maga training platform that presents structured safety-focused training for organizations, with an emphasis on practical program presentation and easy content navigation.</p>
+                    <p>KD-Safety is a full-stack Django web application that streamlines corporate self-defense and safety training programs. The platform bridges business development, customer management, and training operations into a unified system, presenting safety-driven training for organizations with clean, responsive interface design.</p>
 
                     <h6 class="fw-bold">Core Features</h6>
                     <ul>
-                        <li>Corporate training program presentation</li>
-                        <li>Clear overview of safety-oriented curriculum</li>
-                        <li>Clean, responsive information layout for program discovery</li>
+                        <li><strong>Lead Management & CRM Integration:</strong> Automated lead capture with organization matching and real-time Zoho CRM synchronization</li>
+                        <li><strong>Billing & Invoicing:</strong> Stripe-powered invoice generation, payment processing, and custom line-item invoicing</li>
+                        <li><strong>Member Management:</strong> User profiles with verification workflows and role-based access control</li>
+                        <li><strong>Scheduling & Calendly Integration:</strong> Integrated event scheduling with Calendly for training session management</li>
+                        <li><strong>Admin Dashboard:</strong> Comprehensive analytics, lead pipeline visualization, and financial reporting</li>
                     </ul>
 
                     <h6 class="fw-bold">Technical Stack</h6>
                     <ul>
-                        <li>Bootstrap 5, HTML, CSS</li>
-                        <li>JavaScript for component behavior</li>
+                        <li><strong>Backend:</strong> Django 6.0 with PostgreSQL</li>
+                        <li><strong>Frontend:</strong> Bootstrap-based responsive templates with modern CSS/JavaScript</li>
+                        <li><strong>Payments:</strong> Stripe API integration</li>
+                        <li><strong>CRM:</strong> Zoho OAuth integration with automatic lead syncing</li>
+                        <li><strong>Deployment:</strong> Railway-ready with environment configuration</li>
                     </ul>
 
                     <h6 class="fw-bold">Key Integrations</h6>
                     <ul>
-                        <li>Bootstrap carousel and modal components</li>
-                        <li>Responsive content flow for mobile and desktop layouts</li>
+                        <li>OAuth-based Zoho CRM for real-time lead synchronization</li>
+                        <li>Stripe for secure payment processing</li>
+                        <li>Calendly for automated scheduling</li>
+                        <li>Email tracking and SMTP configuration</li>
+                        <li>SMS messaging with consent management</li>
                     </ul>
 
+                    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-3 mt-4 pt-2">
+                        <a href="https://kd-safety.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                    </div>
                 </div>
             </div>
         </div>
