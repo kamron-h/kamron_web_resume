@@ -6,6 +6,7 @@
   const originalContent = new WeakMap();
   const originalAttrs = new WeakMap();
   const dictionaries = {};
+  const entityDecoder = document.createElement("textarea");
 
   let currentLang = "en";
 
@@ -83,7 +84,9 @@
   function normalizeTranslatedText(value) {
     if (!value) return "";
     // Defensive cleanup so accidental inline markup in dictionaries never renders as visible tags.
-    return value.replace(/<[^>]*>/g, "");
+    const withoutTags = value.replace(/<[^>]*>/g, "");
+    entityDecoder.innerHTML = withoutTags;
+    return entityDecoder.value;
   }
 
   function updateLanguageSwitcherState() {

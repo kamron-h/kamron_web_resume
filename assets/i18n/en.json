@@ -296,10 +296,53 @@
       "certs": "Certs"
     },
     "education": {
-      "title": "Education"
+      "title": "Education",
+      "school": {
+        "ecu": "East Carolina University (ECU)",
+        "pcc": "Pitt Community College (PCC)",
+        "dit": "Divers Institute of Technology (DIT)"
+      },
+      "degree": {
+        "ms_se": "M.S. Software Engineering",
+        "bs_se": "B.S. Software Engineering",
+        "associates_science": "Associates in Science",
+        "pro_diver": "Professional Commercial Diver"
+      }
     },
     "experience": {
-      "title": "Relevant Work Experience"
+      "title": "Relevant Work Experience",
+      "role": {
+        "assistant_instructor": "Assistant Instructor",
+        "self_help_research_assistant": "Self-Help Research Assistant",
+        "ml_research_intern": "ML Research Intern"
+      },
+      "company": {
+        "ecu": "East Carolina University (ECU)",
+        "nsf": "National Science Foundation (NSF)"
+      },
+      "assistant_instructor": {
+        "summary": "ECU's STEM Mavericks Camp was a weeklong dive into circuits, robotics and coding for high schoolers from underrepresented and military families. Each student got their own Raspberry Pi, hooked up sensors and wrote Python scripts to build fun projects like sequenced LED traffic lights, then showed off their creations at the end of the week.",
+        "b1": "Mentored and supported 62 high school students from economically stressed Tier 1 counties and military-dependent families in three intensive one-week STEM sessions.",
+        "b2": "Designed and delivered hands-on labs using Raspberry Pi, electronic sensors, and Python to teach fundamentals of signal flow, circuitry, and coding.",
+        "b3": "Guided students through building and programming LED traffic signal circuits, troubleshooting hardware/software issues, and reinforcing debugging skills.",
+        "b4": "Facilitated student presentations for parents and camp leadership, coaching effective communication of technical concepts and project outcomes.",
+        "b5": "Collaborated with ECU faculty and DoD CDAO representatives to expose underrepresented youth to defense-relevant technologies and career pathways.",
+        "cta": "Learn more about the STEM Mavericks Camp"
+      },
+      "self_help_research_assistant": {
+        "summary": "ECU is conducting research on Software Engineering graduate degree programs nationwide. The purpose is to use data science analysis techniques to compare ECU's program with competing universities and support program improvement.",
+        "b1": "Developed a research plan to systematically assess national graduate programs in Software Engineering.",
+        "b2": "Documented the research process and maintained effective communication with program administrators, ensuring transparency and alignment.",
+        "b3": "Applied machine learning algorithms to analyze the data, creating visual outputs that enabled insightful conclusions and strategic recommendations.",
+        "cta": "View the Results"
+      },
+      "ml_research_intern": {
+        "summary": "The National Science Foundation's (NSF) Research Experience for Undergraduates (REU) program provides undergraduate students with hands-on, research-based experiences across scientific and engineering disciplines. The program introduces students to academic research and encourages graduate study or R&D careers. It also builds core AI/ML skills, promotes diversity in research, and tackles current challenges through innovative interdisciplinary projects.",
+        "b1": "Conducted comprehensive research on No-Code Software Development, analyzing over 50 scholarly papers to identify key challenges and emerging opportunities.",
+        "b2": "Enhanced technical proficiency in Overleaf and LaTeX, and mastered Axiom for efficient data scraping, automating extraction of insights from over 2,000 software reviews.",
+        "b3": "Used Python and Jupyter Notebook alongside IBM's AutoAI for advanced data analysis, uncovering trends and patterns in software development practices and user experiences.",
+        "b4": "Strengthened public speaking and presentation skills through weekly updates and a capstone symposium presentation, communicating complex findings to technical and non-technical audiences."
+      }
     },
     "course_title": {
       "1": "SENG 6235 Software Project Management (G)&nbsp; &nbsp;&nbsp;",
@@ -329,7 +372,9 @@
       "25": "Intro to Python, Absolute Beginner&nbsp;&nbsp;",
       "26": "Python 101 for Data Science&nbsp;&nbsp;",
       "27": "Web Application Technologies and Django&nbsp;&nbsp;",
-      "28": "Building Web Applications in Django&nbsp;&nbsp;"
+      "28": "Building Web Applications in Django&nbsp;&nbsp;",
+      "29": "Software Engineering Foundations (G)",
+      "30": "Software Requirements Engineering (G)"
     },
     "course_desc": {
       "1": "Applied Agile planning, effort estimation, and risk management to scope software delivery and align engineering execution with stakeholder goals.",
@@ -362,6 +407,28 @@
       "28": "Aimed at introducing Python programming in the context of data science. It focuses on fundamental Python programming techniques and concepts, including data structures, loops, and Python libraries, essential for data analysis and visualization. The course is designed for beginners and combines theoretical knowledge with practical exercises, making it ideal for those looking to apply Python skills in data science projects.",
       "29": "An in-depth exploration of web application development using Django, a high-level Python web framework. It covers the fundamentals of building web applications, including database models, the Django template system, forms, and user authentication. Designed for those with basic programming knowledge, this course provides practical skills and insights into developing robust web applications efficiently using Django.",
       "30": "Focuses on advanced techniques in web development using the Django framework. It delves into complex aspects of web application building, such as user interactivity, data models, and the integration of external services. This course is designed for individuals with a foundational understanding of Django, aiming to enhance their skills in creating more sophisticated and dynamic web applications."
+    },
+    "profile": {
+      "github_label": "GitHub.com/kamron-h",
+      "linkedin_label": "LinkedIn.com/kamronh"
+    },
+    "references": {
+      "title": "Professional References",
+      "provided_upon_request": "(# Provided Upon Request)",
+      "role": {
+        "senior_se_instructor": "Senior Software Engineer & Instructor",
+        "senior_design_engineer": "Senior Design Engineer"
+      }
+    },
+    "organizations": {
+      "title": "Organizations",
+      "acm": "Association of Computer Machinery",
+      "nsbe": "National Society of Black Engineers",
+      "unia_acl": "Universal Negro Improvement Association & African Communities League"
+    },
+    "certs": {
+      "institution_label": "Institution:",
+      "date_of_completion_label": "Date of Completion:"
     }
   }
 }

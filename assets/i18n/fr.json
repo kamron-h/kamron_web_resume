@@ -296,10 +296,53 @@
       "certs": "Certifs"
     },
     "education": {
-      "title": "Formation"
+      "title": "Formation",
+      "school": {
+        "ecu": "East Carolina University (ECU)",
+        "pcc": "Pitt Community College (PCC)",
+        "dit": "Divers Institute of Technology (DIT)"
+      },
+      "degree": {
+        "ms_se": "M.S. Génie logiciel",
+        "bs_se": "B.S. Génie logiciel",
+        "associates_science": "Associate en sciences",
+        "pro_diver": "Plongeur commercial professionnel"
+      }
     },
     "experience": {
-      "title": "Expérience professionnelle pertinente"
+      "title": "Expérience professionnelle pertinente",
+      "role": {
+        "assistant_instructor": "Assistant enseignant",
+        "self_help_research_assistant": "Assistant de recherche (Self-Help)",
+        "ml_research_intern": "Stagiaire de recherche en ML"
+      },
+      "company": {
+        "ecu": "East Carolina University (ECU)",
+        "nsf": "National Science Foundation (NSF)"
+      },
+      "assistant_instructor": {
+        "summary": "Le camp STEM Mavericks d'ECU proposait une immersion d'une semaine en circuits, robotique et programmation pour des lycéens issus de milieux sous-représentés et de familles militaires. Chaque élève disposait d'un Raspberry Pi, connectait des capteurs et écrivait des scripts Python pour créer des projets ludiques, comme des feux de circulation LED séquencés, puis présentait ses réalisations en fin de semaine.",
+        "b1": "Encadrement et accompagnement de 62 lycéens issus de comtés Tier 1 en difficulté économique et de familles de militaires, au cours de trois sessions STEM intensives d'une semaine.",
+        "b2": "Conception et animation de laboratoires pratiques avec Raspberry Pi, capteurs électroniques et Python pour enseigner les bases du flux de signaux, des circuits et du code.",
+        "b3": "Accompagnement des élèves dans la conception et la programmation de circuits LED de type feu tricolore, avec dépannage matériel/logiciel et renforcement des compétences de débogage.",
+        "b4": "Animation des présentations des élèves auprès des parents et de l'encadrement du camp, avec coaching sur la communication efficace de concepts techniques et de résultats de projets.",
+        "b5": "Collaboration avec des enseignants d'ECU et des représentants DoD CDAO pour exposer des jeunes sous-représentés à des technologies et parcours professionnels liés à la défense.",
+        "cta": "En savoir plus sur le camp STEM Mavericks"
+      },
+      "self_help_research_assistant": {
+        "summary": "ECU mène une étude sur les programmes nationaux de master en génie logiciel. L'objectif est d'utiliser des techniques d'analyse en science des données pour comparer le programme d'ECU à ceux d'universités concurrentes et soutenir son amélioration.",
+        "b1": "Élaboration d'un plan de recherche pour évaluer de manière systématique les programmes nationaux de deuxième cycle en génie logiciel.",
+        "b2": "Documentation du processus de recherche et maintien d'une communication efficace avec les responsables de programmes afin de garantir transparence et alignement.",
+        "b3": "Application d'algorithmes de machine learning pour analyser les données et produire des visualisations facilitant des conclusions pertinentes et des recommandations stratégiques.",
+        "cta": "Voir les résultats"
+      },
+      "ml_research_intern": {
+        "summary": "Le programme REU (Research Experience for Undergraduates) de la National Science Foundation (NSF) offre aux étudiants de premier cycle des expériences pratiques de recherche dans diverses disciplines scientifiques et d'ingénierie. Il initie les étudiants à la recherche académique et encourage la poursuite d'études supérieures ou de carrières en R&D. Le programme développe aussi des compétences clés en IA/ML, favorise la diversité en recherche et aborde des défis actuels via des projets interdisciplinaires innovants.",
+        "b1": "Réalisation d'une recherche approfondie sur le développement logiciel No-Code, avec analyse de plus de 50 publications scientifiques pour identifier les défis clés et les opportunités émergentes.",
+        "b2": "Renforcement des compétences techniques sur Overleaf et LaTeX, et maîtrise d'Axiom pour l'extraction efficace de données, avec automatisation de l'extraction d'insights sur plus de 2 000 avis logiciels.",
+        "b3": "Utilisation de Python et Jupyter Notebook avec AutoAI d'IBM pour des analyses de données avancées, révélant des tendances dans les pratiques de développement logiciel et les expériences utilisateurs.",
+        "b4": "Amélioration des compétences en prise de parole et présentation via des points hebdomadaires et une présentation finale en symposium, en communiquant des résultats complexes à des publics techniques et non techniques."
+      }
     },
     "course_title": {
       "1": "SENG 6235 Gestion de projet logiciel (G)&nbsp; &nbsp;&nbsp;",
@@ -329,7 +372,9 @@
       "25": "Introduction à Python, niveau débutant&nbsp;&nbsp;",
       "26": "Python 101 pour la science des données&nbsp;&nbsp;",
       "27": "Technologies des applications web et Django&nbsp;&nbsp;",
-      "28": "Création d'applications web avec Django&nbsp;&nbsp;"
+      "28": "Création d'applications web avec Django&nbsp;&nbsp;",
+      "29": "Fondements du génie logiciel (G)",
+      "30": "Ingénierie des exigences logicielles (G)"
     },
     "course_desc": {
       "1": "Application de la planification Agile, de l'estimation des efforts et de la gestion des risques pour cadrer la livraison logicielle et aligner l'exécution technique sur les objectifs des parties prenantes.",
@@ -362,6 +407,28 @@
       "28": "Ce cours vise à introduire la programmation Python dans le contexte de la science des données. Il met l'accent sur les techniques et concepts fondamentaux de Python, notamment les structures de données, les boucles et les bibliothèques Python essentielles à l'analyse et à la visualisation. Conçu pour les débutants, il combine théorie et pratique pour faciliter l'application de Python à des projets data.",
       "29": "Exploration approfondie du développement d'applications web avec Django, framework web Python de haut niveau. Le cours couvre les fondamentaux : modèles de données, système de templates Django, formulaires et authentification des utilisateurs. Destiné aux personnes ayant des bases en programmation, il apporte des compétences pratiques pour développer efficacement des applications web robustes avec Django.",
       "30": "Axé sur des techniques avancées de développement web avec Django. Le cours aborde des aspects complexes de la construction d'applications web, tels que l'interaction utilisateur, les modèles de données et l'intégration de services externes. Il s'adresse aux personnes disposant d'une base Django et vise à renforcer leur capacité à créer des applications web plus sophistiquées et dynamiques."
+    },
+    "profile": {
+      "github_label": "GitHub.com/kamron-h",
+      "linkedin_label": "LinkedIn.com/kamronh"
+    },
+    "references": {
+      "title": "Références professionnelles",
+      "provided_upon_request": "(# Fourni sur demande)",
+      "role": {
+        "senior_se_instructor": "Ingénieur logiciel senior et enseignant",
+        "senior_design_engineer": "Ingénieur conception senior"
+      }
+    },
+    "organizations": {
+      "title": "Organisations",
+      "acm": "Association for Computing Machinery",
+      "nsbe": "National Society of Black Engineers",
+      "unia_acl": "Universal Negro Improvement Association & African Communities League"
+    },
+    "certs": {
+      "institution_label": "Établissement :",
+      "date_of_completion_label": "Date d'obtention :"
     }
   }
 }
