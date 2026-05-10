@@ -3,7 +3,7 @@
   const STORAGE_KEY = "site_lang";
   const DICT_BASE_PATH = "assets/i18n";
 
-  const originalText = new WeakMap();
+  const originalContent = new WeakMap();
   const originalAttrs = new WeakMap();
   const dictionaries = {};
 
@@ -80,15 +80,39 @@
     return null;
   }
 
+  function normalizeTranslatedText(value) {
+    if (!value) return "";
+    // Defensive cleanup so accidental inline markup in dictionaries never renders as visible tags.
+    return value.replace(/<[^>]*>/g, "");
+  }
+
+  function updateLanguageSwitcherState() {
+    document.querySelectorAll("[data-lang-switch]").forEach((element) => {
+      const lang = normalizeLang(element.getAttribute("data-lang-switch"));
+      const isActive = lang === currentLang;
+      element.classList.toggle("active", isActive);
+      element.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
+
   function applyTranslations(activeDict, enDict) {
     document.documentElement.setAttribute("lang", currentLang);
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
       const key = element.getAttribute("data-i18n");
-      if (!originalText.has(element)) originalText.set(element, element.textContent);
+      if (!originalContent.has(element)) {
+        originalContent.set(element, {
+          text: element.textContent,
+          html: element.innerHTML,
+        });
+      }
 
       const translated = getTranslation(key, activeDict, enDict);
-      element.textContent = translated !== null ? translated : originalText.get(element);
+      if (translated !== null) {
+        element.textContent = normalizeTranslatedText(translated);
+      } else {
+        element.innerHTML = originalContent.get(element).html;
+      }
     });
 
     document.querySelectorAll("[data-i18n-attr]").forEach((element) => {
@@ -112,6 +136,8 @@
         }
       });
     });
+
+    updateLanguageSwitcherState();
   }
 
   async function setLanguage(nextLang) {
@@ -136,6 +162,16 @@
   window.getLanguage = getLanguage;
 
   document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("click", function (event) {
+      const switcher = event.target.closest("[data-lang-switch]");
+      if (!switcher) return;
+      event.preventDefault();
+      const nextLang = normalizeLang(switcher.getAttribute("data-lang-switch")) || "en";
+      setLanguage(nextLang).catch(function (error) {
+        console.error("[i18n]", error);
+      });
+    });
+
     setLanguage(detectLanguage()).catch(function (error) {
       console.error("[i18n]", error);
     });
