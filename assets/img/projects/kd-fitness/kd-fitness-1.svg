@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">KD-Fitness</title>
+  <desc id="desc">Corporate Krav Maga training platform hero slide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#198754"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#d1e7dd" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1020" cy="110" r="150" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="110" cy="540" r="190" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="82" y="92" width="1036" height="491" rx="36" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="120" y="220" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">KD-Fitness</text>
+  <text x="120" y="284" fill="#d1e7dd" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">Corporate Krav Maga Training Platform</text>
+  <rect x="120" y="350" width="360" height="18" rx="9" fill="url(#accent)"/>
+  <rect x="120" y="392" width="520" height="18" rx="9" fill="#ffffff" fill-opacity="0.72"/>
+  <rect x="120" y="434" width="440" height="18" rx="9" fill="#ffffff" fill-opacity="0.56"/>
+  <rect x="760" y="186" width="260" height="260" rx="42" fill="#ffffff" fill-opacity="0.12"/>
+  <path d="M805 320c46-92 174-92 220 0-46 92-174 92-220 0Z" fill="#d1e7dd" fill-opacity="0.9"/>
+  <circle cx="915" cy="320" r="34" fill="#198754"/>
+  <rect x="850" y="390" width="130" height="18" rx="9" fill="#ffffff" fill-opacity="0.76"/>
+</svg>

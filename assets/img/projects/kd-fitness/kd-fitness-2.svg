@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">KD-Fitness Training Flow</title>
+  <desc id="desc">Program structure and class scheduling slide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8faff"/>
+      <stop offset="100%" stop-color="#D1E7DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1060" height="535" rx="36" fill="#ffffff" stroke="#A3CFBB" stroke-width="4"/>
+  <text x="120" y="178" fill="#0A3622" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Training flow</text>
+  <text x="120" y="226" fill="#495057" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">Corporate scheduling, tracking, and session planning</text>
+  <rect x="120" y="300" width="220" height="220" rx="28" fill="#198754"/>
+  <rect x="390" y="300" width="220" height="220" rx="28" fill="#3763f4"/>
+  <rect x="660" y="300" width="220" height="220" rx="28" fill="#e33cd1"/>
+  <text x="160" y="408" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Assess</text>
+  <text x="430" y="408" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Train</text>
+  <text x="700" y="408" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">Improve</text>
+</svg>
