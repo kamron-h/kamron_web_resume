@@ -33,6 +33,21 @@
   }
 }
 
+@media (max-width: 767.98px) {
+  .card-body > .project-svg {
+    display: flex !important;
+    position: static !important;
+    float: right !important;
+    margin: 0 0 0.75rem 0.75rem !important;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .card-body > .project-svg.bs-icon-lg {
+    --bs-icon-size: 1.5rem;
+  }
+}
+
 .project-title {
 }
 
